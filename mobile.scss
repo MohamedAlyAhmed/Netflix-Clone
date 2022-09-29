@@ -24,8 +24,6 @@ $primary-color: #e50914;
       }
       button {
         background-color: $primary-color !important;
-        font-size: 0.7rem !important;
-        font-weight: bold !important;
         border-radius: 0rem !important;
       }
       img {
@@ -68,6 +66,9 @@ $primary-color: #e50914;
 //Content in Header End
 
 //input Email Start
+.input-group > .form-control {
+  flex: 0 0 auto !important;
+}
 .input-email {
   display: flex;
   justify-content: center;

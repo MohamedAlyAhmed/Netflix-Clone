@@ -13,8 +13,6 @@
 }
 #main-header div div button {
   background-color: #e50914 !important;
-  font-size: 0.7rem !important;
-  font-weight: bold !important;
   border-radius: 0rem !important;
 }
 #main-header div div img {
@@ -48,6 +46,10 @@
 .content-header h6 {
   max-width: 20rem !important;
   font-size: 1.1rem;
+}
+
+.input-group > .form-control {
+  flex: 0 0 auto !important;
 }
 
 .input-email {
