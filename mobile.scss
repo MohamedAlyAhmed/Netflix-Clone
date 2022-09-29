@@ -1,0 +1,128 @@
+//Global Color Variables
+$primary-color: #e50914;
+
+//Start Header
+#main-header {
+  height: 34rem;
+  background-image: linear-gradient(
+      0deg,
+      rgba(11, 11, 11, 1),
+      rgba(255, 255, 255, 0.048),
+      rgb(0, 0, 0)
+    ),
+    url("img/background.jpg");
+  div {
+    div {
+      a {
+        height: 2.1rem !important;
+        width: 6rem !important;
+        border-radius: 0rem !important;
+        font-size: 0.8rem !important;
+        i {
+          font-size: 0.7rem !important;
+        }
+      }
+      button {
+        background-color: $primary-color !important;
+        font-size: 0.7rem !important;
+        font-weight: bold !important;
+        border-radius: 0rem !important;
+      }
+      img {
+        width: 7rem !important;
+      }
+    }
+  }
+}
+// End Header
+
+//Content in Header Start
+.content-header {
+  width: 100%;
+  position: absolute;
+  top: 9rem;
+  right: 0rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  h1 {
+    font-weight: bold;
+    font-size: 1.8rem !important;
+  }
+  h1,
+  h4,
+  h6 {
+    line-height: 1.4 !important;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  h6 {
+    max-width: 20rem !important;
+    font-size: 1.1rem;
+  }
+}
+//Content in Header End
+
+//input Email Start
+.input-email {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  input {
+    width: 22rem !important;
+    height: 3rem !important;
+  }
+  button {
+    font-size: 1rem !important;
+    line-height: 0.5 !important;
+    margin-top: 1rem;
+    height: 3rem !important;
+    width: 10rem !important;
+  }
+}
+//input Email End
+
+//Sections Start
+.img-content {
+  width: 32rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.text-content {
+  text-align: center;
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  h3 {
+    font-size: 1.1rem !important;
+  }
+}
+//Sections End
+
+// A Collapsible Start
+.collapsible {
+  background-color: #303030;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.collap {
+  h5 {
+    font-size: 1.1rem;
+  }
+}
+// A Collapsible End
