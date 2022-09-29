@@ -51,7 +51,6 @@
 }
 
 .input-email {
-  width: 100% !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,10 +78,10 @@
   text-align: center;
 }
 .text-content h1 {
-  font-size: 1.8rem !important;
+  font-size: 1.7rem !important;
 }
 .text-content h3 {
-  font-size: 1.1rem !important;
+  font-size: 1rem !important;
 }
 
 .collapsible {
